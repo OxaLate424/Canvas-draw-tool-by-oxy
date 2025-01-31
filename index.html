@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Draw Tool with Ads</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Canvas Drawing Tool</h1>
+        <div class="toolbar">
+            <input type="color" id="colorPicker">
+            <input type="range" id="brushSize" min="2" max="10" value="5">
+            <button onclick="clearCanvas()">Clear</button>
+        </div>
+        <canvas id="drawingCanvas"></canvas>
+
+        <div class="ad-section">
+            <h2>Sponsored Ads</h2>
+            <div id="adContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
