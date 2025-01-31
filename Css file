@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar {
+    margin-bottom: 10px;
+}
+
+canvas {
+    border: 2px solid black;
+    background: white;
+    cursor: crosshair;
+}
+
+.ad-section {
+    margin-top: 20px;
+    padding: 10px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+#adContainer {
+    margin-top: 10px;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
